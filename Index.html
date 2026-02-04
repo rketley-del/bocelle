@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section id="intro" class="active">
+        <div class="intro-content">
+            <img src="image.jpg" alt="Logo Borcelle" class="logo">
+            <h1>BORCELLE <span>Cafeteria</span></h1>
+            <h2>O MELHOR LUGAR PARA APROVEITAR A SUA PAUSA!</h2>
+            <div class="intro-images">
+                <img src="R.jpg" alt="Café">
+                <img src="bolo.jpg" alt="Bolo">
+                <img src="caputino.jpg" alt="Cappuccino">
+            </div>
+            <p class="offerings">Cafés, sobremesas, sucos naturais,<br>pastéis variados e bolos caseiros e muito mais😋</p>
+            <button id="enter-btn">Entrar no Cardápio</button>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="menu-content">
+            <div class="menu-logo-container">
+                <img src="logo2.png" alt="Logo Borcelle Cafeteria" class="menu-logo">
+            </div>
+            <h2>CARDÁPIO</h2>
+            <div class="section-group">
+                <h3>Bebidas Quentes</h3>
+                <div class="items-grid">
+
+                <div class="item" data-item="Café Expresso" data-price="10.50">
+                        <img src="cafe expresso.jpg" alt="Expresso">
+                        <p>Café Expresso</p>
+                        <span>R$10,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Cappuccino" data-price="16.50">
+                        <img src="caputino.jpg" alt="Cappuccino">
+                        <p>Cappuccino</p>
+                        <span>R$16,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Café com Leite" data-price="13.50">
+                        <img src="cafe com leite.jpg" alt="Café com Leite">
+                        <p>Café com Leite</p>
+                        <span>R$13,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Chocolate Quente" data-price="17.50">
+                        <img src="chocolate.jpg" alt="Chocolate Quente">
+                        <p>Chocolate Quente</p>
+                        <span>R$17,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="leite quente cremoso" data-price="6.50">
+                        <img src="leite quente.jpg" alt="leite quente cremoso">
+                        <p>leite quente cremoso</p>
+                        <span>R$6,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Chá Variado" data-price="15.20">
+                        <img src="uma-xicara-de-cha-preto-em-xicara-branca-ao-lado-do-cha-branco-potrealistic_931576-43166.avif" alt="Chá">
+                        <p>Chá Variado</p>
+                        <span>R$15,20</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="chá preto" data-price="7.00">
+                        <img src="Chá preto.jpg" alt="chá preto">
+                        <p>chá preto</p>
+                        <span>R$7,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="chá de alecrim" data-price="7.50">
+                        <img src="chá de alecrim.jpg" alt="chá de alecrim">
+                        <p>chá de alecrim</p>
+                        <span>R$7,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="chá de camomila" data-price="8.40">
+                        <img src="chá de camomila.jpg" alt="chá de camomila">
+                        <p>chá de camomila</p>
+                        <span>R$8,40</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Café de capim santo" data-price="6.00">
+                        <img src="chá de capim santo.jpg" alt="chá de capim santo">
+                        <p>chá de capim santo</p>
+                        <span>R$6,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Café vermelho" data-price="6.00">
+                        <img src="chá vermelho.jpg" alt="chá vermelho">
+                        <p>chá vermelho</p>
+                        <span>R$6,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Café puro" data-price="5.00">
+                        <img src="cafe.jpg" alt="Café puro">
+                        <p>Café puro</p>
+                        <span>R$5,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="section-group">
+                <h3>Bebidas Frias:Sucos naturais, Refrigerante, vitaminas mistas, Água</h3>
+                <div class="items-grid">
+
+                <div class="item" data-item="Suco de laranja" data-price="12.00">
+                        <img src="suco de laranja.jpg" alt="Suco laranja">
+                        <p>Suco de laranja</p>
+                        <span>R$12,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Suco de goiaba" data-price="11.20">
+                        <img src="suco de goiaba.jpg" alt="Suco de goiaba">
+                        <p>Suco de goiaba</p>
+                        <span>R$11,20</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Suco de acerola" data-price="9.50">
+                        <img src="suco de acerola.jpg" alt="Suco de acerola">
+                        <p>Suco de acerola</p>
+                        <span>R$9,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Suco de maracujá" data-price="8.30">
+                        <img src="suco de maracujá.jpg" alt="Suco de maracujá">
+                        <p>Suco de maracujá</p>
+                        <span>R$8,30</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="coca-cola " data-price="7.00">
+                        <img src="coca-cola.jpg" alt="coca-cola">
+                        <p>coca-cola 600ml</p>
+                        <span>R$7,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Fanta em lata" data-price="5.00">
+                        <img src="fanta.jpg" alt="Fanta">
+                        <p>Fanta em lata (350 ml)</p>
+                        <span>R$5.00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Guaraná em lata" data-price="5.00">
+                        <img src="guaraná.jpg" alt="Guaraná em lata">
+                        <p>Guaraná em lata (350 ml)</p>
+                        <span>R$5,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Água" data-price="3.00">
+                        <img src="água.jpg" alt="Água">
+                        <p>Água</p>
+                        <span>R$3,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Água de coco" data-price="6.00">
+                        <img src="água de coco.jpg" alt="Água de coco">
+                        <p>Água de coco</p>
+                        <span>R$6,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Banana, mamão e maçã" data-price="18.00">
+                        <img src="V.mista.jpg" alt="Banana, mamão e maçã">
+                        <p>Banana, mamão e maçã</p>
+                        <span>R$18,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Mamão, banana e morango" data-price="20.00">
+                        <img src="v.de Mamão, banana e morango.jpg" alt="Mamão, banana e morango">
+                        <p>Mamão, banana e morango</p>
+                        <span>R$20,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Banana, manga e laranja" data-price="22.00">
+                        <img src="Banana, manga e laranja.jpg" alt="Banana, manga e laranja">
+                        <p>Vitamina Banana, manga e laranja</p>
+                        <span>R$22,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="morango, amora, framboesa" data-price="28.00">
+                        <img src="morango, amora, framboesa.jpg" alt="morango, amora, framboesa">
+                        <p>Vitamina de morango, amora, framboesa</p>
+                        <span>R$28,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="section-group">
+                <h3>Salgados</h3>
+                <div class="items-grid">
+
+                <div class="item" data-item="Pão de Queijo" data-price="6.50">
+                        <img src="pão de queijo.jpg" alt="Pão de Queijo">
+                        <p>Pão de Queijo</p>
+                        <span>R$6,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Coxinha de Frango" data-price="8.00">
+                        <img src="coxinha.jpg" alt="Coxinha de frango">
+                        <p>Coxinha de frango</p>
+                        <span>R$8,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Pastel de carne" data-price="9.00">
+                        <img src="pastel.jpg" alt="Pastel de carne">
+                        <p>Pastel de carne</p>
+                        <span>R$9,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Empada de Frango" data-price="12.00">
+                        <img src="empada.jpg" alt="Empada de frango">
+                        <p>Empada de frango</p>
+                        <span>R$12,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Esfiha de carne" data-price="10.00">
+                        <img src="Esfiha.jpg" alt="Esfiha de carne">
+                        <p>Esfiha de carne</p>
+                        <span>R$10,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Esfiha de Frango" data-price="10.50">
+                        <img src="esfilha de frango.jpg" alt="Esfiha de Frango">
+                        <p>Esfiha de Frango</p>
+                        <span>R$10,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Misto Quente" data-price="18.00">
+                        <img src="misto.jpg" alt="Misto Quente">
+                        <p>Misto Quente</p>
+                        <span>R$18,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Sanduíche Natural com Pasta de Atum" data-price="20.40">
+                        <img src="sanduíche.jpg" alt="Sanduíche Natural com Pasta de Atum">
+                        <p>Sanduíche Natural com Pasta de Atum</p>
+                        <span>R$20,40</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Sanduíche Natural (vegana)" data-price="23.00">
+                        <img src="vegano.jpg" alt="Sanduíche Natural (vegana)">
+                        <p>Sanduíche Natural (vegana)</p>
+                        <span>R$23,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Grilled Caprese Panini" data-price="25.00">
+                        <img src="panini.jpg" alt="Grilled Caprese Panini">
+                        <p>Grilled Caprese Panini</p>
+                        <span>R$25,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Wrap de Frango Grelhado" data-price="22.00">
+                        <img src="wrap.jpg" alt="Wrap de Frango Grelhado">
+                        <p>Wrap de Frango Grelhado</p>
+                        <span>R$22,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Wrap vegano" data-price="31.20">
+                        <img src="wrep.v.jpg" alt="Wrap vegano">
+                        <p>Wrap vegano</p>
+                        <span>R$31,20</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="quiche Lorraine" data-price="30.00">
+                        <img src="quiche Lorraine.jpg" alt="quiche Lorraine">
+                        <p>Quiche Lorraine</p>
+                        <span>R$30,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Mini quiches de espinafre" data-price="36.50">
+                        <img src="quiche com espinafre.jpg" alt="Mini quiches de espinafre">
+                        <p>Mini quiches de espinafre</p>
+                        <span>R$36,50</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Croissants presunto/queijo" data-price="15.00">
+                        <img src="Croissants.jpg" alt="Croissants presunto/queijo">
+                        <p>Croissants presunto/queijo</p>
+                        <span>R$15,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bruschettas tomate,basilico, queijo, cogumelos" data-price="29.00">
+                        <img src="Bruschetta.jpg" alt="Bruschettas tomate,basilico, queijo, cogumelos">
+                        <p>Bruschettas tomate,basilico, queijo, cogumelos</p>
+                        <span>R$29,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Torta de frango com catupiry" data-price="7.70">
+                        <img src="Torta de frango.jpg" alt="Torta de frango com catupiry">
+                        <p>Torta de frango com catupiry</p>
+                        <span>Fatia R$7,70</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Crepioca (col 2/5 de tapioca + 1 ovo), queijo, tomate e orégano." data-price="18.00">
+                        <img src="Crepioca.jpg" alt="Crepioca">
+                        <p>Crepioca (col 2/5 de tapioca + 1 ovo), queijo, tomate e orégano.</p>
+                        <span>R$18,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+                </div>
+
+            <div class="section-group">
+                <h3>Doces</h3>
+                <div class="items-grid">
+
+                <div class="item" data-item="Bolo de chocolate" data-price="12.00">
+                        <img src="Bolo de chocolate.jpg" alt="Bolo de chocolate">
+                        <p>Bolo de chocolate</p>
+                        <span>Fatia R$12,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bolo de cenoura com brigadeiro" data-price="8.00">
+                        <img src="Bolo de cenoura com brigadeiro.jpg" alt="Bolo de cenoura com brigadeiro">
+                        <p>Bolo de cenoura com brigadeiro</p>
+                        <span>Fatia R$8,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bolo de limão" data-price="12.00">
+                        <img src="Bolo de limão.jpg" alt="Bolo de limão">
+                        <p>Bolo de limão</p>
+                        <span>Fatia R$12,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bolo de coco" data-price="13.20">
+                        <img src="Bolo de coco.jpg" alt="Bolo de coco">
+                        <p>Bolo de coco</p>
+                        <span>Fatia R$13,20</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bolo Red Velvet com Cream Cheese" data-price="14.20">
+                        <img src="velvet.jpg" alt="Bolo Red Velvet com Cream Cheese">
+                        <p>Bolo Red Velvet com Cream Cheese</p>
+                        <span>Fatia R$14,20</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Bolo de fubá" data-price="5.00">
+                        <img src="Bolo de fubá.jpg" alt="Bolo de fubá">
+                        <p>Bolo de fubá</p>
+                        <span>Fatia R$5,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Carrot cake" data-price="5.00">
+                        <img src="Carrot cake.jpg" alt="Carrot cake">
+                        <p>Carrot cake</p>
+                        <span>Fatia R$5,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Brownie de nutella" data-price="7.00">
+                        <img src="Brownie de nutella.jpg" alt="Brownie de nutella">
+                        <p>Brownie de nutella</p>
+                        <span>R$7,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Cookie com Gotas de chocolate" data-price="7.30">
+                        <img src="Cookie.jpg" alt="Cookie com Gotas de chocolate">
+                        <p>Cookie com Gotas de chocolate</p>
+                        <span>R$7,30</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Donut: Glaceado, recheado" data-price="9.30">
+                        <img src="Donut.jpg" alt="Donut: Glaceado, recheado">
+                        <p>Donut: Glaceado, recheado</p>
+                        <span>R$9,30</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Muffin de Blueberry" data-price="12.00">
+                        <img src="Muffin.jpg" alt="Muffin de Blueberry">
+                        <p>Muffin de Blueberry</p>
+                        <span>R$12,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Muffin de banana" data-price="11.00">
+                        <img src="Muffin de banana.jpg" alt="Muffin de banana">
+                        <p>Muffin de banana</p>
+                        <span>R$11,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Waffle: Com calda, frutas e sorvete" data-price="16.00">
+                        <img src="Waffle.jpg" alt="Waffle: Com calda, frutas e sorvete">
+                        <p>Waffle: Com calda, frutas e sorvete</p>
+                        <span>R$16,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Cheesecake com frutas" data-price="19.00">
+                        <img src="Cheesecake.jpg" alt="Cheesecake com frutas">
+                        <p>Cheesecake com frutas</p>
+                        <span>Fatia R$19,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Torta de morango" data-price="19.00">
+                        <img src="Torta de morango.jpg" alt="Torta de morango">
+                        <p>Torta de morango</p>
+                        <span>Fatia R$19,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Torta de limão" data-price="17.00">
+                        <img src="Torta de limão.jpg" alt="Torta de limão">
+                        <p>Torta de limão</p>
+                        <span>Fatia R$17,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Brigadeiros gourmet" data-price="4.00">
+                        <img src="Brigadeiro.jpg" alt="Brigadeiros gourmet">
+                        <p>Brigadeiros gourmet</p>
+                        <span>R$4,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Pudim" data-price="10.00">
+                        <img src="pudim.jpg" alt="pudim">
+                        <p>Pudim</p>
+                        <span>R$10,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Pave de maracujá" data-price="10.00">
+                        <img src="pave.jpg" alt="pave de maracujá">
+                        <p>Pave de maracujá</p>
+                        <span>R$10,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+
+                <div class="item" data-item="Panqueca" data-price="10.00">
+                        <img src="panqueca.jpg" alt="Panqueca">
+                        <p>Panqueca</p>
+                        <span>R$10,00</span>
+                        <button class="add-btn">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin: 25px 0; background: #fff9e6; padding: 20px; border-radius: 15px;">
+                <label for="cupom" style="font-size: 1.3em; font-weight: bold; color: #654321; display: block; margin-bottom: 10px;">Tem cupom de desconto?</label>
+                <input type="text" id="cupom" placeholder="Digite o código aqui" style="width: 100%; max-width: 350px; padding: 12px; font-size: 1.2em; border: 2px solid #a0522d; border-radius: 10px;">
+                <button id="aplicar-cupom" style="margin-top: 10px; padding: 10px 30px; background: #a0522d; color: white; border: none; border-radius: 30px; cursor: pointer; font-size: 1.1em;">Aplicar Cupom</button>
+                <p id="mensagem-cupom" style="margin-top: 10px; font-size: 1.1em; min-height: 24px;"></p>
+            </div>
+
+            <div style="margin: 25px 0; background: #fff9e6; padding: 20px; border-radius: 15px;">
+                <label for="endereco" style="font-size: 1.3em; font-weight: bold; color: #654321; display: block; margin-bottom: 10px;">Endereço completo para entrega:</label>
+                <textarea id="endereco" rows="4" placeholder="Rua, número, bairro, complemento, ponto de referência..." style="width: 100%; padding: 12px; font-size: 1.2em; border: 2px solid #a0522d; border-radius: 10px; resize: vertical;"></textarea>
+            </div>
+
+            <div style="margin: 25px 0; background: #fff9e6; padding: 20px; border-radius: 15px;">
+                <label style="font-size: 1.3em; font-weight: bold; color: #654321; display: block; margin-bottom: 12px;">Forma de pagamento:</label>
+                <div style="display: flex; flex-wrap: wrap; gap: 25px; font-size: 1.2em;">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="radio" name="pagamento" value="pix" checked> Pix
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="radio" name="pagamento" value="cartao"> Cartão
+                    </label>
+                </div>
+
+                <div id="tipo-cartao" style="display: none; margin-top: 15px;">
+                    <label style="font-weight: bold; color: #654321;">Tipo de cartão:</label>
+                    <div style="display: flex; gap: 25px; margin-top: 10px;">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="radio" name="tipo-cartao" value="debito" checked> Débito
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="radio" name="tipo-cartao" value="credito"> Crédito
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dados-cartao" style="display: none; margin: 25px 0; background: #fff9e6; padding: 20px; border-radius: 15px;">
+                <h4 style="color: #654321; margin-bottom: 15px;">Dados do Cartão</h4>
+                <label for="numero-cartao">Número do cartão:</label>
+                <input type="text" id="numero-cartao" placeholder="0000 0000 0000 0000" maxlength="19" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: 1px solid #a0522d;">
+
+                <label for="nome-cartao">Nome no cartão:</label>
+                <input type="text" id="nome-cartao" placeholder="Nome completo" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: 1px solid #a0522d;">
+
+                <div style="display: flex; gap: 15px;">
+                    <div style="flex: 1;">
+                        <label for="validade-cartao">Validade (MM/AA):</label>
+                        <input type="text" id="validade-cartao" placeholder="MM/AA" maxlength="5" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: 1px solid #a0522d;">
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="cvv-cartao">CVV:</label>
+                        <input type="text" id="cvv-cartao" placeholder="123" maxlength="4" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 8px; border: 1px solid #a0522d;">
+                    </div>
+                </div>
+            </div>
+
+            <div id="qrcode-pix" style="display: none; margin: 25px 0; text-align: center; background: #fff9e6; padding: 20px; border-radius: 15px;">
+                <h4 style="color: #654321; margin-bottom: 15px;">Pague via Pix</h4>
+                <p style="margin-bottom: 15px;">Chave Pix: <strong>borcellecafeteria@gmail.com</strong></p>
+                <img id="qr-pix" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=00020126580014BR.GOV.BCB.PIX0133borcellecafeteria@gmail.com52040000530398654040.005802BR5913Borcelle Cafeteria6009Natal61055901062070503***6304XXXX" alt="QR Code Pix" style="max-width: 200px; border-radius: 12px;">
+                <p style="margin-top: 10px; font-size: 1.1em;">Após pagar, confirme o pedido abaixo</p>
+            </div>
+
+            <div class="cart">
+                <h3>Seu Pedido (<span id="cart-count">0</span> itens)</h3>
+                <ul id="cart-items"></ul>
+                <p>Total: R$ <span id="cart-total">0.00</span></p>
+                <button id="checkout-btn">Finalizar Pedido</button>
+            </div>
+
+        
+            <div class="info-estabelecimento" style="margin-top: 60px; background: rgba(255,255,255,0.9); padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                <h2 style="color: #654321; text-align: center; margin-bottom: 30px;">Sobre a Borcelle Cafeteria</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                    <div>
+                        <h4 style="color: #8b4513;"><i class="fas fa-map-marker-alt"></i> Endereço</h4>
+                        <p>Rua Principal, 123 - Centro<br>Fernado Pedroza - RN, 59515-000</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #8b4513;"><i class="fas fa-clock"></i> Horário de Funcionamento</h4>
+                        <p>Segunda a Sábado: 07:00 às 22:00<br>Domingo: 08:00 às 14:00</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #8b4513;"><i class="fas fa-motorcycle"></i> Taxa de Entrega e Área</h4>
+                        <p>Taxa fixa: R$ 8,00 (gratuita acima de R$ 60,00)<br>Área atendida:Fernado Pedroza e arredores (até 10 km)</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #8b4513;"><i class="fas fa-stopwatch"></i> Tempo Médio de Entrega</h4>
+                        <p>30 a 50 minutos (dependendo da demanda e localização)</p>
+                    </div>
+               
+                    <div>
+                        <h4 style="color: #8b4513;"><i class="fas fa-phone-alt"></i> Contato</h4>
+                        <p><strong>(84) 99999-9999</strong><br>Ligue ou mande mensagem para fazer seu pedido!</p>
+                    </div>
+                </div>
+
+               
+                <div style="text-align: center; margin: 40px 0;">
+                    <h4 style="color: #8b4513;">Siga-nos nas redes</h4>
+                    <div class="social-icons" style="font-size: 2.5em; margin-top: 15px;">
+                        <a href="https://instagram.com/borcellecafeteria" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/borcellecafeteria" target="_blank"><i class="fab fa-facebook"></i></a>
+                  
+                    </div>
+                </div>
+
+                
+                <div style="margin-top: 50px;">
+                    <h3 style="color: #654321; text-align: center; margin-bottom: 25px;">Avaliações dos Clientes</h3>
+
+                    <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto;">
+                        <h4 style="text-align: center; color: #654321; margin-bottom: 20px;">Deixe sua avaliação</h4>
+                        <label for="nome-avaliador">Seu nome (opcional):</label>
+                        <input type="text" id="nome-avaliador" placeholder="Seu nome" style="width: 100%; padding: 10px; margin: 8px 0 15px; border: 1px solid #a0522d; border-radius: 8px;">
+                        <label>Avaliação (estrelas):</label>
+                        <div id="estrelas-avaliacao" style="font-size: 2.5em; color: #ccc; text-align: center; margin: 15px 0; cursor: pointer;">
+                            <span class="estrela" data-valor="1">★</span>
+                            <span class="estrela" data-valor="2">★</span>
+                            <span class="estrela" data-valor="3">★</span>
+                            <span class="estrela" data-valor="4">★</span>
+                            <span class="estrela" data-valor="5">★</span>
+                        </div>
+                        <label for="comentario">Seu comentário:</label>
+                        <textarea id="comentario" rows="4" placeholder="O que achou do atendimento, produtos, entrega..." style="width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #a0522d; border-radius: 8px; resize: vertical;"></textarea>
+                        <button id="enviar-avaliacao" style="margin-top: 15px; padding: 12px 30px; background: #a0522d; color: white; border: none; border-radius: 30px; cursor: pointer; font-size: 1.1em; width: 100%;">Enviar Avaliação</button>
+                    </div>
+
+                    <div id="lista-avaliacoes" style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="confirmacao">
+        <div class="confirm-content">
+            <h1>✅ Pedido feito com sucesso!</h1>
+            <p>Obrigado por escolher a <strong>Borcelle Cafeteria</strong> ☕</p>
+            <p>Seu pedido está sendo preparado com carinho.</p>
+            <p>Volte sempre!</p>
+            <button id="back-to-intro">Voltar ao Início</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
